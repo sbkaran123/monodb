@@ -1,0 +1,50 @@
+{
+  "_id": "userId",
+  "name": "string",
+  "email": "string",
+  "phone": "string",
+  "mentorId": "mentorId",
+  "tasksSubmitted": [ "taskId" ],
+  "attendance": [
+    {
+      "date": "ISODate",
+      "status": "present/absent"
+    }
+  ],
+  "problemsSolved": "number"
+}
+{
+  "_id": "codekataId",
+  "userId": "userId",
+  "problemsSolved": "number"
+}
+{
+  "_id": "attendanceId",
+  "userId": "userId",
+  "date": "ISODate",
+  "status": "present/absent"
+}
+{
+  "_id": "topicId",
+  "title": "string",
+  "date": "ISODate",
+  "tasks": [ "taskId" ]
+}
+{
+  "_id": "taskId",
+  "title": "string",
+  "description": "string",
+  "dueDate": "ISODate",
+  "usersSubmitted": [ "userId" ]
+}
+{
+  "_id": "driveId",
+  "companyName": "string",
+  "date": "ISODate",
+  "studentsAppeared": [ "userId" ]
+}
+{
+  "_id": "mentorId",
+  "name": "string",
+  "mentees": [ "userId" ]
+}
